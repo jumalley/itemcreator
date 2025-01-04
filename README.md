@@ -3,7 +3,6 @@
 This project adds a feature for creating and managing items in your GTA FiveM server using `qs-inventory`. It provides an easy-to-use dialog for admins to create new items, define their properties, and integrate them seamlessly with the `qs-inventory` system.
 
 ![image](https://github.com/user-attachments/assets/a3e2a64a-0d5c-4f72-b1ec-a05c7eaa2509)
-![image](https://github.com/user-attachments/assets/80dfcd80-02a3-4251-a43e-481f72437e87)
 
 ## Features
 - **Admin Access**: Only admins can create new items.
