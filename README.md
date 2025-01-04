@@ -43,23 +43,6 @@ This project adds a feature for creating and managing items in your GTA FiveM se
 ## Commands
 - `/createitem`: Opens the item creation input dialog for admins to define a new item.
 
-## Server-Side Events
-- `itemcreator:server:appendToFile`: Sends the created item data from the client to the server for saving (either in a file or database).
-  
-## Client-Side Events
-- `itemcreator:client:createItemInputDialog`: Triggered by the server to open the item creation dialog on the client side.
-
-## Example Workflow
-
-1. **Admin uses the command**:
-   - The admin types `/createitem` in the chat to trigger the item creation dialog.
-
-2. **Item dialog appears**:
-   - The admin fills in the required information such as item name, label, weight, type (regular item or weapon), image, and additional metadata.
-
-3. **Item is created**:
-   - After submission, the item data is sent to the server, where it's stored for use in `qs-inventory`.
-
 ## Integrating with qs-inventory
 
 This resource is designed to work seamlessly with the `qs-inventory` system. When an item is created through the input dialog, it is automatically added to the available items list in `qs-inventory` for use in the game.
